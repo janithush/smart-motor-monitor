@@ -1,0 +1,18 @@
+# ----- Secrets: never commit credentials -----
+secrets.h
+
+# ----- Build / flash artifacts -----
+*.bin
+*.elf
+*.map
+*.hex
+build/
+.cache/
+.factory/
+
+# ----- IDE / editor noise -----
+.vscode/
+.idea/
+.DS_Store
+zone.files
+*.ino:Zone.Identifier
